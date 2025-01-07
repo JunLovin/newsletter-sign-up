@@ -1,0 +1,32 @@
+:root {
+    /* Primary Color */
+    --tomato: hsl(4, 100%, 67%);
+    /* Neutral Colors */
+    --dark-slate-gray: hsl(234, 29%, 20%);
+    --charcoal-grey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+}
+
+/* Reset All to Default */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+
+body {
+    font-family: 'Roboto', sans;
+}
+
+/* Attribution Styles */
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
